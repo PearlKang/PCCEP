@@ -1,6 +1,3 @@
-from time import time
-
-
 import time
 
 print("안녕하세요.")
