@@ -1,4 +1,4 @@
-#25
+# 25
 push_up=int(input("팔굽혀펴기:"))
 sit_up=int(input("윗몸일으키기:"))
 chin_up=int(input("턱걸이:"))
