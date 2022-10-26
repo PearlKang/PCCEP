@@ -17,3 +17,22 @@ def solution(num_list):
     return answer
 
 print(solution([2,3,4,5,6,7,8,9]))
+
+def solution2(num_list):
+    answer=[]
+
+    for num in num_list:
+        is_decimal=True
+
+        for i in range(2,num):
+            if num%i==0:
+                answer.append(False)
+                is_decimal=False
+                break
+        
+        if is_decimal==True:
+            answer.append(True)
+    
+    return answer
+
+print(solution([2,3,4,5,6,7,8,9]))
