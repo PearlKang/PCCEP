@@ -14,8 +14,8 @@ def func4(a,b):
         return a%b
     return a%(-1*b)
 
-num1=int(input())
-num2=int(input())
+num1=int(input())   # 4 2
+num2=int(input())   # 3 -3
 
 answer_mod=func4(num1,num2)
 answer_pow=func1(num1)

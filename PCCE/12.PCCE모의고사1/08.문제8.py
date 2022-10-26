@@ -7,9 +7,13 @@ def solution(num_list):
             answer.append("even")
             count_even+=1
 
-            if count_even>3:
+            if count_even==3:
                 break
         else:
             answer.append("odd")
 
     return answer
+
+print(solution([1,2,6,7,4,3]))
+print(solution([4,8,1,2,6,4]))
+print(solution([1,2,3,4,5]))
