@@ -4,4 +4,9 @@ def solution(n):
             print("*",end="")
         print()
 
-print(solution(1))
+print(solution(5))
+
+for i in range(5):
+    for j in range(i+1):
+        print("*",end="")
+    print()
