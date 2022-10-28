@@ -22,6 +22,9 @@ def func3(msg):
     return False
         
 def func4(msg):
+    # if " " in msg:
+    #     msg=msg.replace(" ","")
+    
     while(" " in msg):
         msg=msg.replace(" ","")
     return msg
