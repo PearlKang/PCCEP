@@ -14,12 +14,15 @@ def solution(n,board,position):
         
         if board[pos[0]][pos[1]]==0:
             if cnt==2:
-                board[pos[0]][pos[1]]=1
+                answer.append(1)
+            else:
+                answer.append(0)
         else:
             if cnt<=2 or cnt>=5:
-                board[pos[0]][pos[1]]=0
+                answer.append(0)
+            else:
+                answer.append(1)
 
-        answer.append(board[pos[0]][pos[1]])
         cnt=0
 
     return answer
