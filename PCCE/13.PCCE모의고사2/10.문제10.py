@@ -6,7 +6,7 @@ def solution(n,board,position):
 
     for pos in position:
         for dir in direction:
-            if pos[0]+dir[0]<0 or pos[1]+dir[1]<0 or pos[0]+dir[0]>len(board)-1 or pos[1]+dir[1]>len(board[0])-1 :
+            if pos[0]+dir[0]<0 or pos[1]+dir[1]<0 or pos[0]+dir[0]>len(board)-1 or pos[1]+dir[1]>len(board[0])-1:
                 continue
 
             if board[pos[0]+dir[0]][pos[1]+dir[1]]==1:
